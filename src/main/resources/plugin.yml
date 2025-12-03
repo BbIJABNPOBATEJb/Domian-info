@@ -1,0 +1,7 @@
+name: domian-info
+version: '1.0'
+main: me.bbijabnpobatejb.domianInfo.DomianInfo
+api-version: '1.21'
+authors: [ BbIJABNPOBATEJb ]
+description: A simple mod for displaying the OBS ninja webcam near the player
+website: https://github.com/BbIJABNPOBATEJb
