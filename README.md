@@ -1,18 +1,18 @@
 # 🛰 DomianInfo
 
-🔎 **DomianInfo** — это простой плагин для Minecraft (Spigot/Paper), который выводит в консоль расширенную информацию при предварительном подключении игрока к серверу.
+🔎 **DomianInfo** is a simple Minecraft plugin (Spigot/Paper) that displays extended information in the console during a player's pre-connection stage.
 
-## 📦 Пакет: `me.bbijabnpobatejb.domianInfo`
+## 📦 Package: `me.bbijabnpobatejb.domianInfo`
 
-## 📋 Что делает плагин?
+## 📋 Features
 
-Плагин регистрирует слушателя события подключения игрока (`AsyncPlayerPreLoginEvent`) и выводит в консоль (**логи сервера**) следующую информацию:
+The plugin registers a listener for the `AsyncPlayerPreLoginEvent` and outputs the following details to the **server console (logs)**:
 
-- 👤 Ник игрока
-- 🔑 UUID игрока
-- 🌐 IP-адрес
-- 🧱 Raw IP-адрес
-- 🌍 Hostname (доменное имя, если доступно)
-- 🔁 Был ли игрок перенаправлен через proxy (`isTransferred`)
-- ✅ Результат входа (`LoginResult`)
-- ❌ Причина кика, если вход отклонён
+* 👤 **Player Name**
+* 🔑 **Player UUID**
+* 🌐 **IP Address**
+* 🧱 **Raw IP Address**
+* 🌍 **Hostname** (domain name, if available)
+* 🔁 **Proxy Status** (checks if the player was transferred via proxy)
+* ✅ **Login Result** (status of the connection attempt)
+* ❌ **Kick Reason** (displayed if the login is rejected)
